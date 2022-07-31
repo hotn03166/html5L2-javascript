@@ -1,0 +1,16 @@
+/**
+ * HTML5スピードマスター mogi2-17
+ */
+var canvas = document.getElementById("canvas");
+var img = new Image();
+img.src = "image/m12_smn.png";
+var ctx = canvas.getContext("2d");
+
+/*
+img.onload = function () {
+	canvas.addEventListener("mousemove", function (e){
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		ctx.drawImage(img, e.pageX, e.pageY);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             );
+	});
+});
+*/
